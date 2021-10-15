@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 function SmallCard({ img, location, distance }) {
-  const myLoader = ({}) => {
-    return `${img}`;
+  const myLoader = ({ src, width, quality }) => {
+    return `${img}?w=${width}&q=${quality} || 75`;
   };
   return (
     <div className="flex items-center m-2 rounded-xl space-x-4 cursor-pointer hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out">

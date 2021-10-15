@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 function MediumCard({ img, title }) {
-  const loader = () => {
-    return `${img}`;
+  const loader = ({ src, width, quality }) => {
+    return `${src}?w=${width}&q=${quality} || 75`;
   };
   return (
     <div className="hover:scale-105 cursor-pointer transform transition duration-300 ease-out">

@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 function LargeCard({ img, title, description, buttonText }) {
-  const loader = ({}) => {
-    return `${img}`;
+  const loader = ({ src, width, quality }) => {
+    return `${src}?w=${width}&q=${quality} || 75`;
   };
   return (
     <section className="relative py-16 cursor-pointer">
