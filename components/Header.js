@@ -27,6 +27,7 @@ function Header({ placeholder }) {
         noOfGuests,
       },
     });
+    setSearchInput("");
   };
   const selectionRange = {
     startDate: startDate,
