@@ -1,4 +1,4 @@
-Demo: https://airbnb-clone-8la30daol-farazahmedbutt.vercel.app/
+Demo: https://airbnb-clone-seven-zeta.vercel.app/
 
 
 # Next.js + Tailwind CSS Example
